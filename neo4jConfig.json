@@ -1,0 +1,6 @@
+{
+    "// change the values for the configurations": "default values are used in this case",
+    "neo4jURL" : "bolt://localhost:7687",
+    "neo4jUserName" : "neo4j",
+    "neo4jPassword" : "neo4j"
+}

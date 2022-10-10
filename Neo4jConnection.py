@@ -28,10 +28,3 @@ class Neo4jConnection:
                 session.close()
         return response
 
-
-# conn = Neo4jConnection(url="bolt://localhost:7687", username="neo4j", password="")
-# print(type(conn))
-# qu = "match (n:Person{born:1996}) return n"
-# result = conn.query(qu)
-# print(result)
-# conn.close()
